@@ -1,0 +1,5 @@
+[0.007s] Invoking command in '/home/kiranraj/cartesian_impedance_control_ws/build/franka_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kiranraj/cartesian_impedance_control_ws/build/franka_description -- -j16 -l16
+[0.019s] [0mCMake Error: The source directory "/home/kiranraj/cartesian_impedance_control_ws/src/franka_description" does not exist.
+[0.019s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.019s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.021s] Invoked command in '/home/kiranraj/cartesian_impedance_control_ws/build/franka_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kiranraj/cartesian_impedance_control_ws/build/franka_description -- -j16 -l16
