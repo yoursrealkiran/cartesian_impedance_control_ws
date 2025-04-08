@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kiranraj/franka_ros2_ws/install/franka_robot_state_broadcaster/include/**",
+        "/home/kiranraj/franka_ros2_ws/install/franka_example_controllers/include/**",
+        "/home/kiranraj/franka_ros2_ws/install/franka_semantic_components/include/**",
+        "/home/kiranraj/franka_ros2_ws/install/franka_ign_ros2_control/include/**",
+        "/home/kiranraj/franka_ros2_ws/install/franka_hardware/include/**",
+        "/home/kiranraj/franka_ros2_ws/install/franka_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/kiranraj/cartesian_impedance_control_ws/src/franka_cartesian_impedance_controller/include/**",
+        "/home/kiranraj/cartesian_impedance_control_ws/src/franka_description/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

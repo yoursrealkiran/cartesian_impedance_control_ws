@@ -1,0 +1,57 @@
+[0.009s] Invoking command in '/home/kiranraj/cartesian_impedance_control_ws/build/franka_ign_ros2_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kiranraj/cartesian_impedance_control_ws/src/franka_ign_ros2_control -DCMAKE_INSTALL_PREFIX=/home/kiranraj/cartesian_impedance_control_ws/install/franka_ign_ros2_control
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.083s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.133s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.134s] -- Detecting C compile features - done
+[0.135s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.353s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.355s] -- Found controller_manager: 2.46.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.392s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.396s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.403s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.425s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.576s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.578s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.599s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.633s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.644s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.646s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.651s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.664s] -- Looking for pthread.h
+[0.709s] -- Looking for pthread.h - found
+[0.709s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.757s] -- Found Threads: TRUE  
+[0.822s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[0.831s] -- Configuring incomplete, errors occurred!
+[0.832s] See also "/home/kiranraj/cartesian_impedance_control_ws/build/franka_ign_ros2_control/CMakeFiles/CMakeOutput.log".
+[0.832s] [31mCMake Error at CMakeLists.txt:26 (find_package):
+[0.832s]   By not providing "Findfranka_hardware.cmake" in CMAKE_MODULE_PATH this
+[0.832s]   project has asked CMake to find a package configuration file provided by
+[0.832s]   "franka_hardware", but CMake did not find one.
+[0.832s] 
+[0.832s]   Could not find a package configuration file provided by "franka_hardware"
+[0.832s]   with any of the following names:
+[0.832s] 
+[0.832s]     franka_hardwareConfig.cmake
+[0.832s]     franka_hardware-config.cmake
+[0.832s] 
+[0.832s]   Add the installation prefix of "franka_hardware" to CMAKE_PREFIX_PATH or
+[0.832s]   set "franka_hardware_DIR" to a directory containing one of the above files.
+[0.832s]   If "franka_hardware" provides a separate development package or SDK, be
+[0.832s]   sure it has been installed.
+[0.832s] 
+[0.832s] [0m
+[0.839s] Invoked command in '/home/kiranraj/cartesian_impedance_control_ws/build/franka_ign_ros2_control' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kiranraj/cartesian_impedance_control_ws/src/franka_ign_ros2_control -DCMAKE_INSTALL_PREFIX=/home/kiranraj/cartesian_impedance_control_ws/install/franka_ign_ros2_control
