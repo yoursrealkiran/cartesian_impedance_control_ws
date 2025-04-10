@@ -1,0 +1,11 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+
+    cartesian_impedance_controller:
+      type: franka_cartesian_impedance_controller/CartesianImpedanceController
+      parameters:
+        use_sim_time: true
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster

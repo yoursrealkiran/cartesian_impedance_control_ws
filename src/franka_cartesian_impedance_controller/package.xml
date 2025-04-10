@@ -3,24 +3,28 @@
 <package format="3">
   <name>franka_cartesian_impedance_controller</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Cartesian impedance controller based on franka_ros2</description>
   <maintainer email="kiranrajofficial.de@yahoo.com">kiranraj</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
   <depend>controller_interface</depend>
   <depend>hardware_interface</depend>
   <depend>pluginlib</depend>
   <depend>geometry_msgs</depend>
   <depend>tf2_eigen</depend>
-  <!-- <depend>eigen3</depend> -->
+  <depend>franka_semantic_components</depend>
+  <depend>eigen</depend> 
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
   <export>
+    <controller_interface plugin="${prefix}/controller_plugins.xml"/>
+    <!-- <pluginlib plugin_manifest="controller_plugins.xml"/> -->
     <build_type>ament_cmake</build_type>
   </export>
 </package>
